@@ -1,0 +1,25 @@
+.thumbnails {
+    width: 300px;
+    display: block;
+}
+
+.search-bar {
+    display: block;
+}
+
+.video-title {
+    width: 300px;
+}
+
+.Marques {
+    display: inline-block;
+}
+
+.mark {
+    display: inline-block;
+}
+
+.grid {
+    display: flex;
+    gap: 10px;
+}

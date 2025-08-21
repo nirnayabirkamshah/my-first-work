@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+    <title>Add tag</title>
+</html>
+<body>
+    <div class="container">
+        <img  class="image"src="https://i.pinimg.com/736x/8a/ef/e5/8aefe52d46163b04fcd593350459327a.jpg">
+        <div class="text">
+            <p class="name">Nirnaya</p>
+            <p class="description">Web Developer</p>
+            <div class="button">
+                <button class="follow">Follow</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+    </div>
+  <div class="container">
+        <img  class="image"src="https://i.pinimg.com/1200x/19/8b/c6/198bc66efc0774ebba078015407cbd8b.jpg">
+        <div class="text">
+            <p class="name">Monkey D&#183;Luffy</p>
+            <p class="description">King of The Pirates</p>
+            <div class="button">
+                <button class="follow">Follow</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+    </div>
+      <div class="container">
+        <img  class="image"src="https://i.pinimg.com/736x/0c/13/71/0c13710ed387003ed6a95a353c592245.jpg">
+        <div class="text">
+            <p class="name">Roronoa Zoro</p>
+            <p class="description">King of Hell</p>
+            <div class="button">
+                <button class="follow">Follow</button>
+                <button class="message">Message</button>
+            </div>
+        </div>
+    </div>
+    
+     <style>
+        .image{
+            clip-path: circle(50% at 50% 50%);
+            width:40px;
+            display: inline-block;
+            position: relative;
+            bottom: -10px;
+
+        }
+       
+        
+        .text{
+            display: inline-block;
+            vertical-align: top;
+          
+            
+        }
+        .name{
+            margin: 5px;
+            display:inline-block;
+            font-weight: bold;
+            font-size: 15px;
+            color: gray;
+            
+        }
+        .description{
+            margin: 5px;
+            color: gray;
+             font-weight: bold;
+            font-size: 10px;
+          
+
+        }
+        .button{
+            display:  inline-block;
+            position: relative;
+            right: -145px;
+            top:-40px;
+        }
+        .follow,.message{
+            border: none;
+            border-radius: 10px;
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+            width: 105px;
+            height: 30px;
+            display:inline-block;
+            font-weight: bold;
+            gap: 10px;
+        }
+        .follow:hover, .message:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+        .follow:active, .message:active {
+            background-color: #004080;
+        }
+
+            
+        
+    
+        
+     </style>
+</body>
