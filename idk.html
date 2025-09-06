@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>new</title>
+    <script src="https://kit.fontawesome.com/c76f4ad110.js" crossorigin="anonymous"></script>
+    <style>
+        .color{
+            background-image:linear-gradient(to right, #170E4A,#1D678FF2,#5CCDFF); 
+        display: flex;
+             justify-content: center;
+              align-items: center;
+            width: 25em;
+            height: 9em;
+            border-top-left-radius: 1em;
+            border-top-right-radius: 1em;
+            position: relative;
+           margin: auto;
+            bottom: -10em;
+        }
+         .pfp{
+     width: 9em;
+            clip-path: circle(50% at 50% 50%);
+            z-index: 1;
+            overflow: hidden;
+            position: relative;
+            bottom: -2em;
+             box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+              
+        }
+        .color .pfp{
+  object-fit: cover;
+  box-shadow: 0 5px 20px rgb(0, 0, 0,0.4);
+        }
+.info{
+        display:grid;
+             justify-content: center;
+              align-items: center;
+            width: 25em;
+            height: 24em;
+            position: relative;
+           margin: auto;
+            bottom:-10em;
+  background-color: #8671ff;
+}
+
+            h1{
+              display:inline-block;
+              text-align: center;
+               font-weight: bold;
+               font-family:Arial, Helvetica, sans-serif;
+               margin-top:1em;
+               width: 20em;
+              
+              
+            }
+#me{
+       display: inline-block;
+           text-align: center;
+                font-weight: bold;
+              font-family:Arial, Helvetica, sans-serif;
+              margin-top: -1em;
+}
+.fa-facebook{
+    font-size: 3em;
+    text-decoration: none;
+     text-align: center;
+     position: relative;
+     left: 3em;
+    transition: all ease 1s;
+}
+.fa-github{
+    font-size: 3em;
+    text-decoration: none;
+     text-align: center;
+     position: relative;
+      left: 5em;
+      top:-1.1em;
+         transition: all ease 1s;
+}
+.fa-instagram{
+     font-size: 3em;
+    text-decoration: none;
+     text-align: center;
+     position: relative;
+      left: 7em;
+      top:-2.2em;
+         transition: all ease 1s;
+}
+.fa-tiktok{
+     font-size: 3em;
+    text-decoration: none;
+     text-align: center;
+     position: relative;
+      left: 9em;
+         transition: all ease 1s;
+      top:-3.3em;
+      
+}
+.link{
+    display: inline-block;
+}
+.mg{
+    display: inline-block;
+    width: 10em;
+    height:3em;
+    position: relative;
+    left: 27em;
+    top:-7em;
+    border: none;
+    background-color: #170E4A;
+    color: white;
+    font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif;
+      border-radius: 2em;
+      cursor: pointer;
+      transition: all ease 1s;
+    
+
+}
+.sub{
+     display: inline-block;
+      width: 10em;
+    height:3em;
+    position: relative;
+     left: 1em;
+    top:-7em;
+    border: none;
+     background-color: #170E4A;
+    color: white;
+    font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif;
+       border-radius: 2em;
+          cursor: pointer; 
+           transition: all ease 1s;
+}
+.sub:hover{
+     opacity: 0.8;
+     transform: scale(1.05);
+     background-color: #108cec;
+       box-shadow: 0px,20px,15px rgba(0,0,0,);
+}
+.sub:active{
+     transform: scale(0.95);
+}
+
+.mg:hover{
+    opacity: 0.8;
+     transform: scale(1.05);
+     background-color: #108cec;
+     box-shadow: 0px,20px,15px rgba(0,0,0,);
+
+}
+.mg:active{
+    transform: scale(0.95);
+}
+.fa-facebook:hover{
+     transform: scale(1.05);
+ color:#108cec ;
+
+}
+.fa-github:hover{
+transform: scale(1.05);
+color:white;
+}
+.fa-instagram:hover{
+transform: scale(1.05);
+}
+.fa-tiktok:hover{
+transform: scale(1.05);
+}
+.fa-heart{
+    color: rgb(255, 255, 255);
+      position: relative;
+     left: 29em;
+     bottom: -4em;
+     display: inline-block;
+     font-size:1.4em;
+     cursor: pointer;
+       transition: all ease 1s;
+}
+
+
+.fa-heart:hover{
+     transform: scale(1.05);
+}
+.fa-heart:active{
+    transform: scale(0.95);
+    color:#FF0000;
+}
+
+.likes{
+  position: relative;
+     left: 41em;
+     bottom: -5.5em;
+     display: inline-block;
+     font-weight: bold;
+      font-family:Arial, Helvetica, sans-serif;
+      
+}
+hr {
+     transform: rotate(90deg);
+     width: 1em;
+     position: relative;
+     bottom: -3.4em;
+     left: -1em;
+}
+.fa-comment{
+     color: rgb(255, 255, 255);
+      position: relative;
+     left: 37em;
+     bottom: -1em;
+     display: inline-block;
+     font-size:1.4em;
+     cursor: pointer;
+       transition: all ease 1s;
+}
+.fa-comment:hover{
+     transform: scale(1.05);
+}
+.fa-comment:active{
+     transform: scale(0.95);
+}
+
+.comment {
+    position: relative;
+     left: 52em;
+      bottom: -1.3em;
+       display: inline-block;
+       font-weight: bold;
+}
+
+video{
+    position: absolute;
+      width: auto;
+  height: auto;
+   min-width: 100%;
+  min-height: 100%;
+   top: 50%;
+  left: 50%;
+   transform: translate(-50%,-50%);
+    z-index: -1;  
+}
+    </style>
+    </head>
+    <video autoplay loop muted>
+        <source src="https://www.dropbox.com/scl/fi/eg0c3th4vyjnnz09cwxam/22512-328261507_tiny.mp4?rlkey=sk0uvs93a3uby17qbzdx1c3cx&raw=1" type="video/mp4">
+    </video>
+     <header>
+        <div class="color">
+            <img class="pfp" src="https://scontent.fktm19-1.fna.fbcdn.net/v/t39.30808-6/535526303_122179426112534148_3284516759617118185_n.png?_nc_cat=109&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=R-HIY9KpViQQ7kNvwGhs0-a&_nc_oc=AdlL31e1b9dJKjiXpiWXS4pkFQyGLOmPZ4GKYNB52q_X9B8usQBmQiEmYOt6BSq3g4I&_nc_zt=23&_nc_ht=scontent.fktm19-1.fna&_nc_gid=MwobTVTqWDk90qDv1bCgdg&oh=00_AfbefwW15UuCEV1SIPizmUphn6bXxqRAZdTK4pe4VNlIVg&oe=68C1B7EB" alt="pfp">
+        </div>
+     </header>
+     <body>
+        <div class="info">
+            <h1 id="name">Nirnaya Bikram Shah</h1>
+            <p id="me">Wanna Be a Web Developer 😁</p>
+             <i  class="fa-brands fa-facebook" id="fb"></i>
+              <i class="fa-brands fa-github" id="git"></i>
+              <i class="fa-brands fa-instagram" id="insta"></i> 
+              <i class="fa-brands fa-tiktok" id="tik"></i>
+        <div class="button" id="button">
+<button class="mg" >Message</button>
+<button class="sub">Subscribe</button>
+        </div>
+        </div>
+        <div>
+            <i class="fa-solid fa-heart"></i><p class="likes">1.1M</p>
+            <hr>
+           <i class="fa-solid fa-comment"></i><p class="comment">245K</p>
+        </div>
+     </body>
+</html>
